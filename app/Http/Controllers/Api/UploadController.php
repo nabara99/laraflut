@@ -31,7 +31,7 @@ class UploadController extends Controller
                 $image->move($path, $nameFile);
             }
             return response()->json([
-                'status' => 'upload successfully',
+                'message' => 'upload successfully',
             ]);
         }
     }
